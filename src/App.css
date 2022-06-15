@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.question{
+  display: flex;
+}
+.button{
+  outline: none;
+  background-color: aqua;
+  border-radius: 50%;
+}
