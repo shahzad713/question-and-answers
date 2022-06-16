@@ -1,5 +1,7 @@
 import './App.css';
 import Counter from './component/Counter';
+import Jokes from './component/Jokes/Jokes';
+import Profile from './component/Profile/Profile';
 import QuestrionMap from './component/questrionMap'
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
     <div className="App">
   <Counter/>
     <QuestrionMap/>
+    <Profile/>
+    <Jokes/>
     </div>
   );
 }

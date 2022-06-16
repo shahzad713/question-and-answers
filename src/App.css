@@ -54,3 +54,35 @@
   text-align: center;
   margin: auto;
 }
+.img{
+  width: 70px;
+  height: 100px;
+}
+.filtersection{
+  margin-top: 50px;
+}
+.input{
+  margin-bottom: 30px;
+}
+.imgdiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  margin: auto;
+  width: 50%;
+}
+.raondom_jokes_img{
+  height: 30px;
+  width: 40px;
+}
+.heading-random{
+  margin-top:70px;
+}
+.generate_random-section{
+  border: 1px solid black;
+  margin: auto;
+  width: 50%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
