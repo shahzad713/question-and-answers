@@ -45,3 +45,12 @@
   background-color: aqua;
   border-radius: 50%;
 }
+.questionbtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}

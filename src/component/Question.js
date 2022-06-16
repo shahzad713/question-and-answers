@@ -1,17 +1,19 @@
     import React from 'react'
 
 import { useState } from 'react';
-import data from './questionData';
+
 
     const Question = ({question,answer}) => {
         const [faq,setfaq] = useState(false)
       return (
         <>
+        <div className='questionbtn'>
       <h4>{question}</h4>
       <button onClick={()=>setfaq(!faq)}>
-        {faq?'seemore':'showless'}
+        {faq?'showless':'showmore'}
       </button>
-      <div>
+      </div>
+      <div className='anser'>
         {faq&& <p>
             {answer}
             </p>}
